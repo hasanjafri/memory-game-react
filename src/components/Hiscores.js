@@ -9,7 +9,9 @@ class Hiscores extends Component {
     getHiscoreUsers = () => {
         console.log(localStorage.getItem("Users"));
         this.setState({
-            users: JSON.parse(localStorage.getItem("Users"))
+            users: JSON.parse(localStorage.getItem("Users")).sort(function(a, b) {
+                return b.score - a.score;
+            })
         })
     }
 
