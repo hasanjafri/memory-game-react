@@ -1,0 +1,15 @@
+.Game {
+    text-align: center;
+  }
+  
+  .Game-status {
+    padding: 25px;
+    font-size: x-large;  
+  }
+  
+  .CardContainer {
+    display: inline-block;
+    max-width: 900px;
+    margin: '20px auto';
+  }
+  

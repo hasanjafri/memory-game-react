@@ -1,0 +1,23 @@
+.Card {
+    display: inline-block;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    margin-bottom: 10px;      
+    margin-left: 10px;  
+    width: 100px;    
+}
+
+.Card:hover {
+    cursor: pointer;
+    opacity: 0.77;
+}
+  
+.Matched {
+    border-color: #55cc88;
+}
+
+.Matched:hover {
+    cursor: auto;
+    opacity: 1;
+}
